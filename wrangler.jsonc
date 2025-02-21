@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "the-cloudflare-quest",
   "main": "src/index.ts",
-  "compatibility_date": "2025-02-20"
+  "compatibility_date": "2025-02-20",
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
@@ -21,13 +21,14 @@
   //     "bucket_name": "my-bucket"
   //   }
   // ],
-  // "d1_databases": [
-  //   {
-  //     "binding": "MY_DB",
-  //     "database_name": "my-database",
-  //     "database_id": ""
-  //   }
-  // ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cloudflarequest",
+      "database_id": "fb11a76c-0130-429c-93f8-36ac4ebead77",
+      "migrations_dir": "drizzle/migrations"
+    }
+  ],
   // "ai": {
   //   "binding": "AI"
   // },
