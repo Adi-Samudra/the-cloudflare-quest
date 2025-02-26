@@ -8,6 +8,13 @@
       "when": 1740036308639,
       "tag": "0000_abandoned_mesmero",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1740569884549,
+      "tag": "0001_lush_joseph",
+      "breakpoints": true
     }
   ]
 }
